@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
 // Each Client Connection will be managed in a dedicated Thread
 public class Server implements Runnable{ 
 	
-	static final File WEB_ROOT = new File(".");
+	static final File WEB_ROOT = new File("./server-browser/");
 	static final String DEFAULT_FILE = "/browser/src/main/java/browser/resources/index/index.html";
 	static final String FILE_NOT_FOUND = "/browser/src/main/java/browser/resources/404/404.html";
 	static final String METHOD_NOT_SUPPORTED = "/browser/src/main/java/browser/resources/not_supported/not_supported.html";
